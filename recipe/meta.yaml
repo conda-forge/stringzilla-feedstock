@@ -1,5 +1,5 @@
 {% set name = "StringZilla" %}
-{% set version = "3.9.8" %}
+{% set version = "3.10.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ashvardanian/StringZilla/archive/v{{ version }}.tar.gz
-  sha256: 2efaf2eb9b10287efa51fffa4b1e05cf7b426e3404c3c4fd3c141291846c733c
+  sha256: c67ecacef6aaaf48e3f56d44fbc4da34fc3a3a8efee7df64351a0fb8a2859bee
 
 build:
   entry_points:
