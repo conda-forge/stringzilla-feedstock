@@ -8,6 +8,8 @@ package:
 source:
   url: https://github.com/ashvardanian/StringZilla/archive/v{{ version }}.tar.gz
   sha256: 8ca47c1f1bb8ba67a89c54951fff08483087fa637a43941de1a44fb04a2ba83e
+  patches:
+    - patches/0001-fix-build-option.patch
 
 build:
   entry_points:
@@ -15,7 +17,6 @@ build:
     - sz_wc=cli.wc:main
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   number: 0
-  skip: True  # [target_platform == "osx-64"]
 
 requirements:
   build:
