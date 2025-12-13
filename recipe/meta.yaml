@@ -8,8 +8,8 @@ package:
 source:
   url: https://github.com/ashvardanian/StringZilla/archive/v{{ version }}.tar.gz
   sha256: 5c49782bc7f5a7392c8b960248d3cc9ba87b3a9629b665f731a2d407fefe425b
-  patches:
-    - patches/0001-fix-build-option.patch
+  #patches:
+    #- patches/0001-fix-build-option.patch
 
 build:
   entry_points:
