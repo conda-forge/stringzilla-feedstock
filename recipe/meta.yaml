@@ -1,5 +1,5 @@
 {% set name = "StringZilla" %}
-{% set version = "4.6.3" %}
+{% set version = "5.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ashvardanian/StringZilla/archive/v{{ version }}.tar.gz
-  sha256: 5470ed92c91032ac11b8b95c2a0967822b81ad72e68a9db0653c2c8d4316e7e6
+  sha256: bb76e97f215c2e3237c6915e0549c0d1f5d50dbd430ba0a6a640988dc8f69af1
   #patches:
     #- patches/0001-fix-build-option.patch
 
